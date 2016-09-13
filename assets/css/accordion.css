@@ -1,0 +1,23 @@
+/*
+	Name: Accordion Menu
+	Author: Tim Wright (tim@10up.com)
+	License: MIT
+*/
+.accordion + .accordion {
+  margin-top: 40px; }
+.accordion__header {
+  background: #ccc; }
+.accordion__trigger {
+  display: block;
+  padding: 10px;
+  color: #333;
+  border-top: 1px solid #fff; }
+.accordion__content {
+  background: #eee;
+  padding: 10px; }
+  .accordion__content[aria-hidden="true"] {
+    display: none; }
+  .accordion__content:target {
+    display: block; }
+
+/*# sourceMappingURL=accordion.css.map */

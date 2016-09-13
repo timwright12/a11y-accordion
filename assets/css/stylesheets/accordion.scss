@@ -1,0 +1,41 @@
+/*
+	Name: Accessible Accordion Menu
+	Author: Tim Wright (tim@csskarma.com)
+	License: MIT
+*/
+
+// Namespace, if you want it (update the HTML too though)
+$ns: '' !default;
+
+.#{$ns}accordion {
+
+	+ .accordion {
+		margin-top: 40px;
+	}
+
+	&__header {
+		background: #ccc;
+	}
+
+	&__trigger {
+		display: block;
+		padding: 10px;
+		color: #333;
+		border-top: 1px solid #fff;
+	}
+
+	&__content {
+		background: #eee;
+		padding: 10px;
+
+		&[aria-hidden="true"] {
+			display: none;
+		}
+
+		&:target {
+			display: block;
+		}
+
+	}
+
+}
