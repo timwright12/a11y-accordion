@@ -59,7 +59,7 @@
 
 					  id = sub_obj.getAttribute("id");
 					  if( !id ) {
-						  id = "accordion-" + Math.floor(Math.random() * 999) + 1 ;
+						  id = "accordion-" + Math.floor(Math.random() * 99999) + 1 ;
 						  sub_obj.setAttribute("id", id);
 					  }
 
