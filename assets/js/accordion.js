@@ -93,6 +93,7 @@
 				  // If the state is set to open, open the first content area
 				  if( data_state === "open" ) {
 					  doc.querySelector(".accordion__content").setAttribute("aria-hidden", false);
+					  trigger.setAttribute("aria-expanded", true);
 				  }
 
 			  } // if
