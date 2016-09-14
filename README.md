@@ -65,3 +65,5 @@ Code and documentation are released under the MIT license.
 | Feature       | Chrome | Firefox | Internet Explorer | Safari |
 |---------------|--------|---------|-------------------|--------|
 | Basic Support | Latest | Latest  | 8+                | 5.1+   |
+
+Chrome and Firefox update too much to go back and test each version, if you need a certain on tested, just let me know. Or if there's a bug somewhere, feel free to file an issue and I'll fix it.
