@@ -132,7 +132,7 @@
       // show it and set focus
      this.setAttribute("aria-expanded", true);
      target_el.setAttribute("aria-hidden", false);
-     target_el.setAttribute("tabindex", -1);
+     target_el.setAttribute("tabindex", 0);
      target_el.focus();
 
     } else {
