@@ -1,6 +1,6 @@
 # Accessible Accordion Menu
 
-This is a plugin to help you create accessible accordion menus with minimal work.
+This is a plugin to help you create accessible accordion menus with minimal work. [Check out the demo](https://timwright12.github.io/a11y-accordion/)
 
 ## Example HTML You'll Need
 
