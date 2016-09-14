@@ -38,7 +38,7 @@ The `aria-label` attribute is used to fill out the accordion trigger content. Wh
 
 ### ID
 
-Adding ad ID to `.accordion__content` make it a little easier for the JavaScript to hook up, but it's not required. If no ID is set, the plugin will generate one.
+Adding ad ID to `.accordion__content` makes it a little easier for the JavaScript to hook up, but it's not required. If no ID is set, the plugin will generate one.
 
 ### Classes
 
