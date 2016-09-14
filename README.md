@@ -59,3 +59,9 @@ The `accordion` class is not required, but the `accordion__content` one is.
 ## License
 
 Code and documentation are released under the MIT license.
+
+## Browser support
+
+| Feature       | Chrome | Firefox | Internet Explorer | Safari |
+|---------------|--------|---------|-------------------|--------|
+| Basic Support | Latest | Latest  | 8+                | 5.1+   |
